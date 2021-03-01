@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .top-news {
+            width: 100%;
+            height: 100%px;
+        }
+
+        .top-news .container {
+            width: 1800px;
+            padding-top: 30px;
+            margin: auto;
+        }
+
+        .top-news .container .tn img {
+            width: 100%;
+        }
+
+        .top-news .container .tn img:hover {
+            filter: blur(3px);
+        }
+
+        .top-news .tn {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .top-news .container .tn .content {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            display: block;
+            width: 100%;
+            line-height: 20px;
+        }
+
+        .top-news .tn .content .title {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: large;
+            font-weight: bold;
+            margin: 10px auto 20px 20px;
+        }
+
+        .top-news .tn .content .title:hover {
+            color: #E47A2E;
+        }
+
+        .top-news .tn .content .date {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            margin-left: 20px;
+        }
+
+        .top-news .tn .content .date:hover {
+            text-decoration: underline;
+        }
+
+        .top-news .container .col-left {
+            width: 49%;
+            height: 614px;
+            float: left;
+        }
+
+        .top-news .container .col-right {
+            width: 49%;
+            height: 614px;
+            float: right;
+        }
+
+        .col1 {
+            width: 48.5%;
+            float: left;
+            height: 100%;
+        }
+
+        .col1 .row1 {
+            height: 48.5%;
+            width: 100%;
+            padding-bottom: 13px;
+        }
+
+        .col1 .row2 {
+            height: 48.5%;
+            width: 100%;
+        }
+
+        .col2 {
+            width: 48.5%;
+            float: right;
+            height: 100%;
+        }
+
+        .col2 .row1 {
+            height: 48.5%;
+            width: 100%;
+            padding-bottom: 13px;
+        }
+
+        .col2 .row2 {
+            height: 48.5%;
+            width: 100%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-news">
+        <div class="container">
+            <div class="col-left">
+                <div class="col1">
+                    <div class="row1">
+                        <div class="tn">
+                            <img src="img/t1.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Giám đốc Bệnh viện Nhi Trung ương đột tử tại phòng làm việc</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="tn">
+                            <img src="img/t2.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">TP.HCM: Thông tin mới nhất về kết quả xét nghiệm liên quan đến bệnh nhân 1660</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="row1">
+                        <div class="tn">
+                            <img src="img/t3.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Lịch trình di chuyển của hai mẹ con mắc COVID-19 sống tại chung cư ở Hà Nội</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="tn">
+                            <img src="img/t4.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Vắc-xin phòng COVID-19 đầu tiên được cấp phép lưu hành tại Việt Nam</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="col1">
+                    <div class="row1">
+                        <div class="tn">
+                            <img src="img/t5.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Giàn giáo trung tâm thương mại cao tầng bất ngờ đổ sập, nhiều công nhân gặp nạn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="tn">
+                            <img src="img/t6.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Hà Nội: Quán karaoke, vũ trường, quán bar tạm dừng hoạt động từ 0h ngày 1/2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="row1">
+                        <div class="tn">
+                            <img src="img/t7.jpeg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Thanh niên 19 tuổi tung tin "họ hàng nhà tôi nhiễm COVID-19" bị triệu tập</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="tn">
+                            <img src="img/t8.jpg" />
+                            <div class="content">
+                                <a class="date" href=""><i class="far fa-clock"></i>02-Feb-2021</a>
+                                <a class="title" href="">Đà Nẵng cách ly 21 ngày với người về từ Hải Dương, Quảng Ninh</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

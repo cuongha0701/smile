@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hình ảnh</title>
+    <meta charset="utf-8">
+    <style>
+        .gallery {
+            height: 620px;
+            width: 1745px;
+            margin: 20px 20px 0px 20px;
+        }
+
+        .card {
+            height: 280px;
+            width: 333px;
+            margin: 15px;
+        }
+
+        .card:hover {
+            filter: blur(2px);
+        }
+
+        .grid-container .card:nth-child(1) {
+            grid-area: card1;
+        }
+
+        .grid-container .card:nth-child(2) {
+            grid-area: card2;
+        }
+
+        .grid-container .card:nth-child(3) {
+            grid-area: card3;
+        }
+
+        .grid-container .card:nth-child(4) {
+            grid-area: card4;
+        }
+
+        .grid-container .card:nth-child(5) {
+            grid-area: card5;
+        }
+
+        .grid-container .card:nth-child(6) {
+            grid-area: card6;
+        }
+
+        .grid-container .card:nth-child(7) {
+            grid-area: card7;
+        }
+
+        .grid-container .card:nth-child(8) {
+            grid-area: card8;
+        }
+
+        .grid-container .card:nth-child(9) {
+            grid-area: card9;
+        }
+
+        .grid-container .card:nth-child(10) {
+            grid-area: card10;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                "card1 card2 card3 card4 card5"
+                "card6 card7 card8 card9 card10";
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="grid-container">
+            <div class="card">
+                <img src="./img/gallery/1.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/2.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/3.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/4.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/5.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/6.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/7.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/8.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/9.jpg">
+            </div>
+            <div class="card">
+                <img src="./img/gallery/10.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+
+</body>
+
+</html>
